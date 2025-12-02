@@ -12,12 +12,10 @@
 - ❓ [Problématique](#❓-problématique)  
 - 🎯 [Objectifs](#🎯-objectifs)  
 - ✨ [Fonctionnalités](#✨-fonctionnalités)  
-- 🗃 [Structure des tables](#🗃-structure-des-tables)  
+- 🗃 [Diagrammes](#🗃-structure-des-tables)  
 - 🔍 [Requêtes SQL](#🔍-requêtes-sql)  
 - 🏛 [Architecture](#🏛-architecture)  
 - 🛠 [Technologies utilisées](#🛠-technologies-utilisées)  
-- 📈 [Graphiques](#📈-graphiques)  
-- 💻 [Installation](#💻-installation)  
 - 🎥 [Démo](#🎥-démo)
 
 
@@ -77,36 +75,18 @@ Statistiques graphiques
 
 Graphique du nombre de ventes par artiste
 
-## 🗃 Diagramme de classe :
+## 🗃 Diagramme  
+## Diagramme de use classe :
 
+## Diagramme de classe :
 <img width="661" height="223" alt="image" src="https://github.com/user-attachments/assets/ad45a60f-a5bf-45ea-8d16-4c418427059d" />
 
 
 ## 🔍 Requêtes SQL
 
-CREATE TABLE Oeuvre (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    titre VARCHAR(100) NOT NULL,
-    artiste VARCHAR(100) NOT NULL,
-    categorie VARCHAR(50) NOT NULL,
-    prix DECIMAL(10,2) NOT NULL
-);
+<img width="522" height="337" alt="image" src="https://github.com/user-attachments/assets/1c9241a5-d37b-47da-99d0-decbafd533a5" />
 
-CREATE TABLE Client (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE VenteArt (
-    oeuvre_id INT NOT NULL,
-    client_id INT NOT NULL,
-    dateVente DATE DEFAULT CURRENT_DATE,
-    PRIMARY KEY (oeuvre_id, client_id),
-    FOREIGN KEY (oeuvre_id) REFERENCES Oeuvre(id),
-    FOREIGN KEY (client_id) REFERENCES Client(id)
-);
-
+<img width="491" height="222" alt="image" src="https://github.com/user-attachments/assets/75312339-c3e7-46db-aacd-9828d58059de" />
 
 ## 🏛 Architecture
 
@@ -115,10 +95,20 @@ Description de l’architecture ici…
 ---
 
 ## 🛠 Technologies utilisées
+Langage : Java
 
-Liste des technologies ici…
+Interface graphique : Java Swing
 
----
+Base de données : MySQL
+
+Connexion BD : JDBC
+
+Graphiques : JFreeChart (ou JavaFX Charts)
+
+IDE : NetBeans
+
+Icônes : Icons8
+
 
 ## 📈 Graphiques
 
