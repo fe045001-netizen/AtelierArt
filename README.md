@@ -77,6 +77,7 @@ Graphique du nombre de ventes par artiste
 
 ## 🗃 Diagramme  
 ## Diagramme de use classe :
+<img width="596" height="427" alt="image" src="https://github.com/user-attachments/assets/32ee1456-342c-4ab9-bff1-6a768901c936" />
 
 ## Diagramme de classe :
 <img width="661" height="223" alt="image" src="https://github.com/user-attachments/assets/ad45a60f-a5bf-45ea-8d16-4c418427059d" />
