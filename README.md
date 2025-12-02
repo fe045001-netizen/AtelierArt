@@ -20,37 +20,68 @@
 - 💻 [Installation](#💻-installation)  
 - 🎥 [Démo](#🎥-démo)
 
----
 
 ## 🗂 Contexte
 
-Description du contexte ici…
+La gestion d’un atelier d’art nécessite un suivi précis des œuvres disponibles, des clients et des ventes. Les méthodes manuelles entraînent souvent des erreurs, des doublons et une perte de temps. L’application Atelier d’Art permet de centraliser ces informations et d’automatiser la gestion.
 
----
+
 
 ## ❓ Problématique
+Gestion compliquée des œuvres et des artistes
 
-Description de la problématique ici…
+Suivi des ventes difficile sans système automatisé
 
----
+Statistiques limitées sur les ventes par artiste ou catégorie
+
+Recherche et filtrage des œuvres peu efficaces
 
 ## 🎯 Objectifs
 
-Description des objectifs ici…
+Gestion compliquée des œuvres et des artistes
 
----
+Suivi des ventes difficile sans système automatisé
+
+Statistiques limitées sur les ventes par artiste ou catégorie
+
+Recherche et filtrage des œuvres peu efficaces
 
 ## ✨ Fonctionnalités
 
-Liste des fonctionnalités ici…
+Gestion des œuvres
 
----
+Ajouter, modifier et supprimer une œuvre
 
-## 🗃 Structure des tables
+Lister toutes les œuvres
 
-Description des tables ici…
+Gestion des clients
 
----
+Ajouter, modifier et supprimer un client
+
+Lister les clients
+
+Gestion des ventes
+
+Enregistrer une vente (sélection œuvre + client)
+
+Lister les ventes
+
+Voir les détails d’une vente
+
+Filtrage et recherche
+
+Filtrer par artiste ou catégorie
+
+Recherche d’œuvre ou client par nom
+
+Statistiques graphiques
+
+Graphique du nombre de ventes par artiste
+
+## 🗃 Diagramme de classe :
+
+<img width="661" height="223" alt="image" src="https://github.com/user-attachments/assets/ad45a60f-a5bf-45ea-8d16-4c418427059d" />
+
 
 ## 🔍 Requêtes SQL
 
