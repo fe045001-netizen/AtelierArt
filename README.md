@@ -111,17 +111,6 @@ IDE : NetBeans
 Icônes : Icons8
 
 
-## 📈 Graphiques
-
-Description des graphiques ici…
-
----
-
-## 💻 Installation
-
-Instructions d’installation ici…
-
----
 
 ## 🎥 Démo
 
