@@ -23,8 +23,7 @@
 
 ## 🗂 Contexte
 
-La gestion d’un atelier d’art nécessite un suivi précis des œuvres disponibles, des clients et des ventes. Les méthodes manuelles entraînent souvent des erreurs, des doublons et une perte de temps. L’application Atelier d’Art permet de centraliser ces informations et d’automatiser la gestion.
-
+La gestion d’un atelier d’art nécessite un suivi précis des œuvres disponibles, des clients et des ventes. Les méthodes manuelles entraînent souvent des erreurs, des doublons et une perte de temps. L’application Atelier d’Art permet de centraliser ces informations et d’automatiser la gestion
 
 
 ## ❓ Problématique
