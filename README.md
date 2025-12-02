@@ -24,24 +24,38 @@ Actuellement, la gestion se fait de manière manuelle, ce qui entraîne des erre
 ## Problématique
 
 Les principaux problèmes rencontrés sont :
+
 Difficulté à suivre l’inventaire des œuvres d’art.
+
 Perte d’informations sur les clients et les ventes.
+
 Absence de statistiques pour mesurer les ventes par artiste ou par catégorie.
+
 Processus manuel long et sujet à erreurs.
 
 ## Objectifs
 L’objectif de l’application AtelierArt est de :
+
 Centraliser la gestion des œuvres, des clients et des ventes.
+
 Faciliter l’ajout, la modification et la suppression d’œuvres et de clients.
+
 Permettre un suivi précis des ventes.
+
 Fournir des outils d’analyse grâce à des graphiques de ventes par artiste ou par catégorie.
 
 ## Fonctionnalités
+
 L’application permet de :
+
 Ajouter, modifier, supprimer et lister les œuvres.
+
 Ajouter, modifier, supprimer et lister les clients.
+
 Enregistrer les ventes et consulter l’historique.
+
 Filtrer les ventes par artiste ou catégorie.
+
 Visualiser un graphique des ventes par artiste.
 
 ## Daigramme
@@ -60,6 +74,7 @@ CREATE TABLE Oeuvre (
 CREATE TABLE Client (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
+    prenom VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL
 );
 
@@ -79,8 +94,11 @@ CREATE TABLE VenteArt (
 ##  Technologies utilisées
 
 Java (Swing pour l’interface graphique)
+
 MySQL pour la base de données
+
 JDBC pour la connexion à la base de données
+
 JFreeChart pour les graphiques
 
 
