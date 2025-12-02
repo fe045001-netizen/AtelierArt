@@ -13,8 +13,9 @@
 -  [Structure des tables](#-structure-des-tables)  
 -  [Requêtes SQL](#-requêtes-sql)  
 -  [Architecture](#-architecture)  
--  [Technologies utilisées](#-technologies-utilisées)  
+-  [Technologies utilisées](#-technologies-utilisées) 
 -  [Démo](#-démo)
+-  [Auteur](#-Auteur)  
 
 ##  Contexte
 
@@ -113,7 +114,7 @@ CREATE TABLE VenteArt (
 
 ## Auteur
 
-# Nom:Sahmad Fatima-ezzahra
-# Cours:Programmation Java
-# Date:Décembre 2025
-# Encadré par: Mohamed LACHGAR
+ Nom:Sahmad Fatima-ezzahra
+ Cours:Programmation Java
+ Date:Décembre 2025
+ Encadré par: Mohamed LACHGAR
