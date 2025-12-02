@@ -84,9 +84,29 @@ Graphique du nombre de ventes par artiste
 
 ## 🔍 Requêtes SQL
 
-Exemples de requêtes SQL ici…
+CREATE TABLE Oeuvre (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titre VARCHAR(100) NOT NULL,
+    artiste VARCHAR(100) NOT NULL,
+    categorie VARCHAR(50) NOT NULL,
+    prix DECIMAL(10,2) NOT NULL
+);
 
----
+CREATE TABLE Client (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE VenteArt (
+    oeuvre_id INT NOT NULL,
+    client_id INT NOT NULL,
+    dateVente DATE DEFAULT CURRENT_DATE,
+    PRIMARY KEY (oeuvre_id, client_id),
+    FOREIGN KEY (oeuvre_id) REFERENCES Oeuvre(id),
+    FOREIGN KEY (client_id) REFERENCES Client(id)
+);
+
 
 ## 🏛 Architecture
 
