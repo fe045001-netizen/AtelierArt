@@ -1,30 +1,30 @@
 
-# 🎨 AtelierArt
+#  AtelierArt
 ## 🖼 Atelier d’Art — Gestion des Œuvres, Clients et Ventes
 
 **Atelier d’Art** est une application de gestion permettant d’administrer les œuvres d’art, de suivre les ventes, de filtrer par artiste ou catégorie et d’analyser les chiffres grâce à un graphique des ventes par artiste.
 
 ---
 
-## 📂 Table des matières
+## Table des matières
 
-- 📌 [Contexte](#🗂-contexte)  
-- ❓ [Problématique](#❓-problématique)  
-- 🎯 [Objectifs](#🎯-objectifs)  
-- ✨ [Fonctionnalités](#✨-fonctionnalités)  
-- 🗃 [Diagrammes](#🗃-structure-des-tables)  
-- 🔍 [Requêtes SQL](#🔍-requêtes-sql)  
-- 🏛 [Architecture](#🏛-architecture)  
-- 🛠 [Technologies utilisées](#🛠-technologies-utilisées)  
-- 🎥 [Démo](#🎥-démo)
+- [Contexte](#-contexte)  
+-  [Problématique](#-problématique)  
+-  [Objectifs](#-objectifs)  
+-  [Fonctionnalités](#-fonctionnalités)  
+-  [Diagrammes](#-structure-des-tables)  
+-  [Requêtes SQL](#-requêtes-sql)  
+-  [Architecture](#-architecture)  
+-  [Technologies utilisées](#🛠-technologies-utilisées)  
+-  [Démo](#-démo)
 
 
-## 🗂 Contexte
+## Contexte
 
 La gestion d’un atelier d’art nécessite un suivi précis des œuvres disponibles, des clients et des ventes. Les méthodes manuelles entraînent souvent des erreurs, des doublons et une perte de temps. L’application Atelier d’Art permet de centraliser ces informations et d’automatiser la gestion
 
 
-## ❓ Problématique
+##  Problématique
 Gestion compliquée des œuvres et des artistes
 
 Suivi des ventes difficile sans système automatisé
@@ -33,7 +33,7 @@ Statistiques limitées sur les ventes par artiste ou catégorie
 
 Recherche et filtrage des œuvres peu efficaces
 
-## 🎯 Objectifs
+##  Objectifs
 
 Gestion compliquée des œuvres et des artistes
 
@@ -43,7 +43,7 @@ Statistiques limitées sur les ventes par artiste ou catégorie
 
 Recherche et filtrage des œuvres peu efficaces
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 Gestion des œuvres
 
@@ -75,9 +75,8 @@ Statistiques graphiques
 
 Graphique du nombre de ventes par artiste
 
-## 🗃 Diagramme  
-## Diagramme de use classe :
-<img width="596" height="427" alt="image" src="https://github.com/user-attachments/assets/32ee1456-342c-4ab9-bff1-6a768901c936" />
+## Diagramme  
+
 
 ## Diagramme de classe :
 <img width="661" height="223" alt="image" src="https://github.com/user-attachments/assets/ad45a60f-a5bf-45ea-8d16-4c418427059d" />
@@ -89,13 +88,11 @@ Graphique du nombre de ventes par artiste
 
 <img width="491" height="222" alt="image" src="https://github.com/user-attachments/assets/75312339-c3e7-46db-aacd-9828d58059de" />
 
-## 🏛 Architecture
+##  Architecture
 
-Description de l’architecture ici…
+<img width="428" height="611" alt="image" src="https://github.com/user-attachments/assets/418d6cd3-ca08-4c98-9763-0ac42b2f43bd" />
 
----
-
-## 🛠 Technologies utilisées
+##  Technologies utilisées
 Langage : Java
 
 Interface graphique : Java Swing
