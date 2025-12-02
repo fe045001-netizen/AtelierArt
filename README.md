@@ -61,6 +61,8 @@ Visualiser un graphique des ventes par artiste.
 ## Daigramme
 # Diagramme de classe:
 
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
+
 ## Requêtes SQL
 ```sql
 CREATE TABLE Oeuvre (
@@ -89,7 +91,7 @@ CREATE TABLE VenteArt (
 ```
 
 ## Architecture
-
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/architecture.png)
 
 ##  Technologies utilisées
 
