@@ -34,6 +34,7 @@ Absence de statistiques pour mesurer les ventes par artiste ou par catégorie.
 Processus manuel long et sujet à erreurs.
 
 ## Objectifs
+
 L’objectif de l’application AtelierArt est de :
 
 Centraliser la gestion des œuvres, des clients et des ventes.
@@ -59,6 +60,7 @@ Filtrer les ventes par artiste ou catégorie.
 Visualiser un graphique des ventes par artiste.
 
 ## Daigramme
+
 # Diagramme de classe:
 
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
@@ -95,15 +97,23 @@ CREATE TABLE VenteArt (
 
 ##  Technologies utilisées
 
-Java (Swing pour l’interface graphique)
-
-MySQL pour la base de données
-
-JDBC pour la connexion à la base de données
-
-JFreeChart pour les graphiques
-
+- *Java* : Langage principal pour la logique applicative et le développement de l'interface.
+- *Java Swing* : Pour la création de l'interface graphique (GUI).
+- *JFreeChart* : Pour la génération de graphiques et la visualisation de données.
+- *JavaMail API* : Pour l'envoi et la gestion des e-mails depuis l'application.
+- *MySQL* : Base de données relationnelle pour stocker les données de l'application.
+- *JDBC* : Pour la connexion et l'accès aux données depuis Java.
+- *phpMyAdmin* : Outil de gestion de base de données MySQL.
+- *NetBeans IDE* : Environnement de développement intégré pour le codage, le débogage et la compilation.
 
 ## Démo
 
-Lien ou description de la démo ici…
+
+
+
+## Auteur
+
+# Nom:Sahmad Fatima-ezzahra
+# Cours:Programmation Java
+# Date:Décembre 2025
+# Encadré par: Mohamed LACHGAR
