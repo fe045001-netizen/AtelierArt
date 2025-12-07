@@ -57,15 +57,16 @@ Générer un graphique des ventes par artiste
 Assurer une communication fiable entre Java et MySQL via JDBC
 
 # Diagramme
+
 **Diagramme use classe**:
-![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/use%20classe.png)
 
 **Diagramme de classe**:
 
-![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/mcd.png)
 
 ## Architecture
-![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/architecture.png)
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/architecture%20vente.png)
 
 ## Fonctionnalités
 
