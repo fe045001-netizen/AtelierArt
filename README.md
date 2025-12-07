@@ -55,7 +55,7 @@ Générer un graphique des ventes par artiste
 
 Assurer une communication fiable entre Java et MySQL via JDBC
 
-# Daigramme
+# Diagramme
 **Diagramme use classe**:
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
 
@@ -68,7 +68,7 @@ Assurer une communication fiable entre Java et MySQL via JDBC
 
 ## Fonctionnalités
 
-1. Gestion des œuvres
+**Gestion des œuvres**
 
 Ajouter une œuvre (titre, artiste, catégorie, prix)
 
@@ -77,8 +77,7 @@ Modifier une œuvre
 Supprimer une œuvre
 
 Afficher toutes les œuvres disponibles
-
-2. Gestion des ventes
+**Gestion des vebntes**
 
 Enregistrer une vente (sélectionner un client + une œuvre)
 
@@ -86,19 +85,19 @@ Supprimer ou consulter une vente
 
 Suivre les ventes réalisées sur une période (optionnel)
 
-3. Filtrage
+**Filtrage**
 
 Filtrer les œuvres par artiste
 
 Filtrer les œuvres par catégorie
 
-4. Recherche
+**Recherche**
 
 Recherche d’une œuvre par titre
 
 Recherche d’un artiste
 
-5. Statistiques
+**Statistiques**
 
 Afficher le Top artistes (artistes les plus vendus)
 
@@ -108,7 +107,7 @@ Générer un graphique des ventes par artiste via JFreeChart
 
 Les trois entités principales du projet sont :
 
-##. Oeuvre
+# Oeuvre
 
 titre
 
@@ -118,13 +117,13 @@ categorie
 
 prix
 
-##. Client
+# Client
 
 nom
 
 email
 
-##. VenteArt
+# VenteArt
 
 oeuvre
 
@@ -132,7 +131,7 @@ client
 
 dateVente
 
-##. Relations
+# Relations
 
 Une œuvre peut être vendue plusieurs fois
 
