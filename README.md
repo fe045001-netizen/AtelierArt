@@ -159,6 +159,14 @@ CREATE TABLE VenteArt (
     FOREIGN KEY (oeuvre_id) REFERENCES Oeuvre(id),
     FOREIGN KEY (client_id) REFERENCES Client(id)
 );
+CREATE TABLE utilisateur (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(50) NOT NULL,
+    prenom VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('admin', 'user') DEFAULT 'user'
+);
 ```
 
 ##  Technologies utilisées
