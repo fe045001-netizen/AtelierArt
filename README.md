@@ -37,11 +37,11 @@ Processus manuel long et sujet à erreurs.
 
 # Objectifs
 
-## Objectif général
+**Objectif général**:
 
 Développer une application desktop pour gérer les œuvres d’art, suivre les ventes, filtrer les données et visualiser les statistiques sous forme graphique.
 
-## Objectifs spécifiques
+**Objectifs spécifiques**:
 
 Mettre en place une interface graphique intuitive pour manipuler les œuvres et les ventes
 
@@ -68,7 +68,7 @@ Assurer une communication fiable entre Java et MySQL via JDBC
 
 ## Fonctionnalités
 
-**Gestion des œuvres**
+**1 Gestion des œuvres**
 
 Ajouter une œuvre (titre, artiste, catégorie, prix)
 
@@ -77,7 +77,7 @@ Modifier une œuvre
 Supprimer une œuvre
 
 Afficher toutes les œuvres disponibles
-**Gestion des vebntes**
+**2 Gestion des ventes**
 
 Enregistrer une vente (sélectionner un client + une œuvre)
 
@@ -85,19 +85,19 @@ Supprimer ou consulter une vente
 
 Suivre les ventes réalisées sur une période (optionnel)
 
-**Filtrage**
+**3 Filtrage**
 
 Filtrer les œuvres par artiste
 
 Filtrer les œuvres par catégorie
 
-**Recherche**
+**4 Recherche**
 
 Recherche d’une œuvre par titre
 
 Recherche d’un artiste
 
-**Statistiques**
+**5 Statistiques**
 
 Afficher le Top artistes (artistes les plus vendus)
 
@@ -107,7 +107,7 @@ Générer un graphique des ventes par artiste via JFreeChart
 
 Les trois entités principales du projet sont :
 
-# Oeuvre
+*Oeuvre*:
 
 titre
 
@@ -117,13 +117,13 @@ categorie
 
 prix
 
-# Client
+*Client*:
 
 nom
 
 email
 
-# VenteArt
+*VenteArt*:
 
 oeuvre
 
@@ -131,7 +131,7 @@ client
 
 dateVente
 
-# Relations
+*Relations*:
 
 Une œuvre peut être vendue plusieurs fois
 
