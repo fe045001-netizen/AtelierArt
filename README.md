@@ -35,13 +35,13 @@ Absence de statistiques pour mesurer les ventes par artiste ou par catégorie.
 
 Processus manuel long et sujet à erreurs.
 
-## Objectifs
+# Objectifs
 
-# Objectif général
+## Objectif général
 
 Développer une application desktop pour gérer les œuvres d’art, suivre les ventes, filtrer les données et visualiser les statistiques sous forme graphique.
 
-# Objectifs spécifiques
+## Objectifs spécifiques
 
 Mettre en place une interface graphique intuitive pour manipuler les œuvres et les ventes
 
