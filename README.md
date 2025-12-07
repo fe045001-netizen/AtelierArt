@@ -1,7 +1,8 @@
 #  AtelierArt
 ##  Atelier d’Art — Gestion des Œuvres, Clients et Ventes
 
-**Atelier d’Art** est une application de gestion permettant d’administrer les œuvres d’art, de suivre les ventes, de filtrer par artiste ou catégorie et d’analyser les chiffres grâce à un graphique des ventes par artiste.
+**Maison Art** est une application de gestion permettant d’administrer les œuvres d’art, de suivre les ventes, de filtrer par artiste ou catégorie et d’analyser les chiffres grâce à un graphique des ventes par artiste.
+
 
 
 ##  Table des matières
@@ -10,9 +11,9 @@
 -  [Problématique](#-problématique)  
 -  [Objectifs](#-objectifs)  
 -  [Fonctionnalités](#-fonctionnalités)  
--  [Structure des tables](#-structure-des-tables)  
+-  [Diagrammes](#-Diagrammes)
+-  [Architecture](#-architecture)
 -  [Requêtes SQL](#-requêtes-sql)  
--  [Architecture](#-architecture)  
 -  [Technologies utilisées](#-technologies-utilisées) 
 -  [Démo](#-démo)
 -  [Auteur](#-Auteur)  
@@ -36,35 +37,108 @@ Processus manuel long et sujet à erreurs.
 
 ## Objectifs
 
-L’objectif de l’application AtelierArt est de :
+### Objectif général
 
-Centraliser la gestion des œuvres, des clients et des ventes.
+Développer une application desktop pour gérer les œuvres d’art, suivre les ventes, filtrer les données et visualiser les statistiques sous forme graphique.
 
-Faciliter l’ajout, la modification et la suppression d’œuvres et de clients.
+### Objectifs spécifiques
 
-Permettre un suivi précis des ventes.
+Mettre en place une interface graphique intuitive pour manipuler les œuvres et les ventes
 
-Fournir des outils d’analyse grâce à des graphiques de ventes par artiste ou par catégorie.
+Faciliter l’enregistrement d’une vente entre un client et une œuvre
 
-## Fonctionnalités
+Filtrer les œuvres (par artiste / par catégorie)
 
-L’application permet de :
+Afficher le classement des artistes les plus vendus
 
-Ajouter, modifier, supprimer et lister les œuvres.
+Générer un graphique des ventes par artiste
 
-Ajouter, modifier, supprimer et lister les clients.
-
-Enregistrer les ventes et consulter l’historique.
-
-Filtrer les ventes par artiste ou catégorie.
-
-Visualiser un graphique des ventes par artiste.
+Assurer une communication fiable entre Java et MySQL via JDBC
 
 ## Daigramme
+# Diagramme use classe :
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
 
 # Diagramme de classe:
 
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
+
+## Architecture
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/architecture.png)
+
+## Fonctionnalités
+
+1. Gestion des œuvres
+
+Ajouter une œuvre (titre, artiste, catégorie, prix)
+
+Modifier une œuvre
+
+Supprimer une œuvre
+
+Afficher toutes les œuvres disponibles
+
+2. Gestion des ventes
+
+Enregistrer une vente (sélectionner un client + une œuvre)
+
+Supprimer ou consulter une vente
+
+Suivre les ventes réalisées sur une période (optionnel)
+
+3. Filtrage
+
+Filtrer les œuvres par artiste
+
+Filtrer les œuvres par catégorie
+
+4. Recherche
+
+Recherche d’une œuvre par titre
+
+Recherche d’un artiste
+
+5. Statistiques
+
+Afficher le Top artistes (artistes les plus vendus)
+
+Générer un graphique des ventes par artiste via JFreeChart
+
+## Structure des données (Base de données)
+
+Les trois entités principales du projet sont :
+
+##. Oeuvre
+
+titre
+
+artiste
+
+categorie
+
+prix
+
+##. Client
+
+nom
+
+email
+
+##. VenteArt
+
+oeuvre
+
+client
+
+dateVente
+
+##. Relations
+
+Une œuvre peut être vendue plusieurs fois
+
+Un client peut acheter plusieurs œuvres
+
+Relation N..N → VenteArt
 
 ## Requêtes SQL
 ```sql
@@ -93,9 +167,6 @@ CREATE TABLE VenteArt (
 );
 ```
 
-## Architecture
-![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/architecture.png)
-
 ##  Technologies utilisées
 
 - *Java* : Langage principal pour la logique applicative et le développement de l'interface.
@@ -106,14 +177,18 @@ CREATE TABLE VenteArt (
 - *JDBC* : Pour la connexion et l'accès aux données depuis Java.
 - *phpMyAdmin* : Outil de gestion de base de données MySQL.
 - *NetBeans IDE* : Environnement de développement intégré pour le codage, le débogage et la compilation.
+- *MagicDraw*: création des diagrammes UML (Use Case, classes, séquence)
 
 ## Démo
 
-https://drive.google.com/file/d/16vdtlTtE2lXuKpZ06Zz7ZppRqYjTRran/view?usp=drive_link
+
 
 ## Auteur
 
  Nom:Sahmad Fatima-ezzahra
+ 
  Cours:Programmation Java
+ 
  Date:Décembre 2025
+ 
  Encadré par: Mohamed LACHGAR
