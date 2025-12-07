@@ -92,13 +92,7 @@ Filtrer les œuvres par artiste
 
 Filtrer les œuvres par catégorie
 
-**4 Recherche**
-
-Recherche d’une œuvre par titre
-
-Recherche d’un artiste
-
-**5 Statistiques**
+**4 Statistiques**
 
 Afficher le Top artistes (artistes les plus vendus)
 
