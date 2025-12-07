@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/7332fcd8-92dc-4feb-85e1-a5cab639f137
 #  AtelierArt
 ##  Atelier d’Art — Gestion des Œuvres, Clients et Ventes
 
