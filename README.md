@@ -77,6 +77,7 @@ Modifier une œuvre
 Supprimer une œuvre
 
 Afficher toutes les œuvres disponibles
+
 **2 Gestion des ventes**
 
 Enregistrer une vente (sélectionner un client + une œuvre)
@@ -107,7 +108,7 @@ Générer un graphique des ventes par artiste via JFreeChart
 
 Les trois entités principales du projet sont :
 
-*Oeuvre*:
+**Oeuvre**:
 
 titre
 
@@ -117,13 +118,13 @@ categorie
 
 prix
 
-*Client*:
+**Client**:
 
 nom
 
 email
 
-*VenteArt*:
+**VenteArt**:
 
 oeuvre
 
@@ -131,7 +132,7 @@ client
 
 dateVente
 
-*Relations*:
+**Relations**:
 
 Une œuvre peut être vendue plusieurs fois
 
