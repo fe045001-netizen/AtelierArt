@@ -55,8 +55,8 @@ Générer un graphique des ventes par artiste
 
 Assurer une communication fiable entre Java et MySQL via JDBC
 
-## Daigramme
-# Diagramme use classe :
+# Daigramme
+#**Diagramme use classe**:
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/8200113183739f40971c8b13c1d307940d119925/images/3.png)
 
 # Diagramme de classe:
