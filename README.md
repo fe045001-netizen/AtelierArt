@@ -62,7 +62,7 @@ Assurer une communication fiable entre Java et MySQL via JDBC
 
 **Diagramme de classe**:
 
-![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/mcd.png)
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/0b9a7d603d5c89cb81f84149857661307dc86321/mcd.png)
 
 ## Architecture
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/architecture%20vente.png)
