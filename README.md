@@ -60,9 +60,9 @@ Assurer une communication fiable entre Java et MySQL via JDBC
 **Diagramme use classe**:
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/use%20classe.png)
 
-**Diagramme de classe**:
+**MCD**:
 
-![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/0b9a7d603d5c89cb81f84149857661307dc86321/mcd.png)
+![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/f49884be6a0088138a7f7dfa001b79295af6e958/mcdprojet.png)
 
 ## Architecture
 ![URL image](https://github.com/fe045001-netizen/AtelierArt/blob/49161055d68b42e5712aa7bfe4471511a51c31d4/images/architecture%20vente.png)
@@ -138,7 +138,7 @@ Relation N..N → VenteArt
 ## Requêtes SQL
 ```sql
 CREATE TABLE Oeuvre (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    oeuvre_id INT AUTO_INCREMENT PRIMARY KEY,
     titre VARCHAR(100) NOT NULL,
     artiste VARCHAR(100) NOT NULL,
     categorie VARCHAR(50) NOT NULL,
@@ -146,7 +146,7 @@ CREATE TABLE Oeuvre (
 );
 
 CREATE TABLE Client (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    client_id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
     prenom VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL
