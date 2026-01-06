@@ -157,8 +157,8 @@ CREATE TABLE VenteArt (
     client_id INT NOT NULL,
     dateVente DATE DEFAULT CURRENT_DATE,
     PRIMARY KEY (oeuvre_id, client_id),
-    FOREIGN KEY (oeuvre_id) REFERENCES Oeuvre(id),
-    FOREIGN KEY (client_id) REFERENCES Client(id)
+    FOREIGN KEY (oeuvre_id) REFERENCES Oeuvre(oeuvre_id),
+    FOREIGN KEY (client_id) REFERENCES Client(client_id)
 );
 CREATE TABLE utilisateur (
     id INT AUTO_INCREMENT PRIMARY KEY,
